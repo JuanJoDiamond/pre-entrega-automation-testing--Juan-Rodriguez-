@@ -1,5 +1,6 @@
 import pytest
 from selenium import webdriver
+# Importamos la función de login desde utils.py y realizar el login en el fixture
 from utils import login
 
 # creamos un fixture para el driver

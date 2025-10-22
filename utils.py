@@ -1,7 +1,15 @@
 from selenium.webdriver.common.by import By
 import time
 
+# PRE-ENTREGA 1: 
+# - Automazion del Login.
+
 # Función para iniciar sesión en la aplicación de prueba
+# Sirve para iniciar sesión en la aplicación web de prueba utilizando Selenium WebDriver.
+# Esto se utiliza como inicio del resto de las pruebas que necesitan un usuario autenticado.
+
+# PRE-ENTREGA 2:
+# - Ingresar credenciales válidas (usuario: "standard_user", contraseña: "secret_sauce")
 def login(driver):
     driver.get("https://www.saucedemo.com/")
     

@@ -11,3 +11,5 @@ py -m pytest tests/
 # para generar un reporte html, usar el comando:
 py -m pytest tests/ --html=report.html
 
+# para borrar la memoria cache en el archivo "run_test"
+pytest --cache-clear

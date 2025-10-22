@@ -1,6 +1,9 @@
 from selenium.webdriver.common.by import By
 from selenium import webdriver
 
+# PRE-ENTREGA 3: 
+# - Validar login exitoso verificando que se haya redirigido a la página de inventario.
+
 def test_login_validation(login_in_driver):
     try:
         driver = login_in_driver
