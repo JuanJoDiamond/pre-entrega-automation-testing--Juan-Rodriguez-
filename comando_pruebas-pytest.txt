@@ -1,0 +1,13 @@
+# para realizar las pruebas individualmente, usar el comando:
+
+py -m pytest tests/test_login.py
+py -m pytest tests/test_inventory.py
+
+y asi ir agregando el nombre del test_ a realizar
+
+# para ejecutar todas las pruebas, usar el comando:
+py -m pytest tests/
+
+# para generar un reporte html, usar el comando:
+py -m pytest tests/ --html=report.html
+
