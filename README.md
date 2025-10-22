@@ -72,7 +72,7 @@ Se trabajó sobre el sitio [saucedemo.com](https://www.saucedemo.com), una aplic
 
 1. Clonar el repositorio:
    
-   git clone
+   git clone https://github.com/JuanJoDiamond/pre-entrega-automation-testing--Juan-Rodriguez-.git
    
    cd qa-automation-saucedemo
    
