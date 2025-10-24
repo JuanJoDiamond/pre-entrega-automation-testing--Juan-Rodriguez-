@@ -2,7 +2,7 @@
 from selenium.webdriver.common.by import By
 from selenium import webdriver
 
-# PRE-ENTREGA 5:
+# PRE-ENTREGA 6:
 # Validar que elementos importantes de la interfaz estén presentes (menú, filtros, etc.)
 
 def test_productos_imp(login_in_driver):

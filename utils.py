@@ -3,6 +3,7 @@ import time
 
 # PRE-ENTREGA 1: 
 # - Automazion del Login.
+# - Navegar a la página de login de saucedemo.com
 
 # Función para iniciar sesión en la aplicación de prueba
 # Sirve para iniciar sesión en la aplicación web de prueba utilizando Selenium WebDriver.
@@ -19,6 +20,3 @@ def login(driver):
 
     # Esperar 2 segundos para asegurar que la página cargue
     time.sleep(2)
-
-    # Evitamos que el driver se cierre inmediatamente, para que las pruebas puedan continuar
-    # driver.quit()
